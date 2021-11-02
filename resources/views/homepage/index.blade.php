@@ -65,12 +65,11 @@
 {{--End About Me--}}
 
 {{--Skill--}}
-
-<section>
+<section id="skill" class="mb-5">
     <div class="text-center">
         <p class="text-2xl mt-4 mb-3 font-medium text-gray-800 text-center underline">Skill</p>
     </div>
-    <div id="slick-expertise" class="slider flex items-center justify-center mx-2" data-slick='{"slidesToShow": 5, "slidesToScroll": 3}'>
+    <div id="slick-expertise" class="slider flex items-center justify-center mx-2" data-slick='{"slidesToShow": 4, "slidesToScroll": 3}'>
         <div class="flex flex-col items-center mb-4 justify-center">
             <div>
                 <p class="text-black text-center font-bold mb-5">HTML</p>
@@ -153,10 +152,179 @@
         </div>
     </div>
 </section>
+{{--Endskill--}}
 
-<section>
-    <div class="mt-5"></div>
+{{--Projects--}}
+<section id="projects" class="pt-5 bg-gray-300 mb-5">
+    <div class="text-center">
+        <p class="text-2xl mt-4 mb-3 font-medium text-gray-800 text-center underline">Projects</p>
+    </div>
+    <div class="container my-12 mx-auto px-4 md:px-12">
+        <div class="flex flex-wrap -mx-1 lg:-mx-4 responsive">
+
+            <!-- Column -->
+            <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+
+                <!-- Article -->
+                <div class="overflow-hidden rounded-lg shadow-lg">
+
+                    <img class="w-full" src="{{asset('img/Elaina.png')}}" alt="Mountain">
+                    <div class="px-6 py-4">
+                        <div class="font-bold text-xl mb-2">Mountain</div>
+                        <p class="text-gray-700 text-base">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                        </p>
+                    </div>
+
+                    <div class="px-6 pt-4 pb-2">
+                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+                    </div>
+
+                </div>
+                <!-- END Article -->
+
+            </div>
+            <!-- END Column -->
+
+            <!-- Column -->
+            <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+
+                <!-- Article -->
+                <div class="overflow-hidden rounded-lg shadow-lg">
+
+                    <img class="w-full" src="img/Elaina.png" alt="Mountain">
+                    <div class="px-6 py-4">
+                        <div class="font-bold text-xl mb-2">Mountain</div>
+                        <p class="text-gray-700 text-base">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                        </p>
+                    </div>
+
+                    <div class="px-6 pt-4 pb-2">
+                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+                    </div>
+
+                </div>
+                <!-- END Article -->
+
+            </div>
+            <!-- END Column -->
+
+            <!-- Column -->
+            <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+
+                <!-- Article -->
+                <div class="overflow-hidden rounded-lg shadow-lg">
+
+                    <img class="w-full" src="img/Elaina.png" alt="Mountain">
+                    <div class="px-6 py-4">
+                        <div class="font-bold text-xl mb-2">Mountain</div>
+                        <p class="text-gray-700 text-base">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                        </p>
+                    </div>
+
+                    <div class="px-6 pt-4 pb-2">
+                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+                    </div>
+
+                </div>
+                <!-- END Article -->
+
+            </div>
+            <!-- END Column -->
+
+            <!-- Column -->
+            <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+
+                <!-- Article -->
+                <div class="overflow-hidden rounded-lg shadow-lg">
+
+                    <img class="w-full" src="img/Elaina.png" alt="Mountain">
+                    <div class="px-6 py-4">
+                        <div class="font-bold text-xl mb-2">Mountain</div>
+                        <p class="text-gray-700 text-base">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                        </p>
+                    </div>
+
+                    <div class="px-6 pt-4 pb-2">
+                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+                    </div>
+
+                </div>
+                <!-- END Article -->
+
+            </div>
+            <!-- END Column -->
+
+            <!-- Column -->
+            <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+
+                <!-- Article -->
+                <div class="overflow-hidden rounded-lg shadow-lg">
+
+                    <img class="w-full" src="img/Elaina.png" alt="Mountain">
+                    <div class="px-6 py-4">
+                        <div class="font-bold text-xl mb-2">Mountain</div>
+                        <p class="text-gray-700 text-base">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                        </p>
+                    </div>
+
+                    <div class="px-6 pt-4 pb-2">
+                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+                    </div>
+
+                </div>
+                <!-- END Article -->
+
+            </div>
+            <!-- END Column -->
+
+            <!-- Column -->
+            <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+
+                <!-- Article -->
+                <div class="overflow-hidden rounded-lg shadow-lg">
+
+                    <img class="w-full" src="img/Elaina.png" alt="Mountain">
+                    <div class="px-6 py-4">
+                        <div class="font-bold text-xl mb-2">Mountain</div>
+                        <p class="text-gray-700 text-base">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                        </p>
+                    </div>
+
+                    <div class="px-6 pt-4 pb-2">
+                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+                    </div>
+
+                </div>
+                <!-- END Article -->
+
+            </div>
+            <!-- END Column -->
+
+        </div>
+    </div>
 </section>
+{{--Endprojects--}}
+
+
+
 
 <script
     src="https://code.jquery.com/jquery-3.6.0.min.js"
@@ -168,7 +336,48 @@
     $('.slider').slick({
         dots: false,
         prevArrow: false,
-        nextArrow: false
+        nextArrow: false,
+        autoplay: true,
+        autoplaySpeed: 2000,
+    });
+
+    $('.responsive').slick({
+        dots: false,
+        speed: 300,
+        slidesToShow: 3,
+        slidesToScroll: 2,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        prevArrow: false,
+        nextArrow: false,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    infinite: true,
+                    dots: false
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+        ]
     });
 </script>
 

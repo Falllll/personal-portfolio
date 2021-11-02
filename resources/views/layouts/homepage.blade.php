@@ -31,7 +31,7 @@
 <body class="flex flex-col min-h-full bg-gray-100">
 {{-- NAVBAR --}}
 <nav class="flex items-center bg-gray-900 p-1 flex-wrap">
-    <a href="#" class="p-2 mr-4 inline-flex items-center">
+    <a href="#home" class="p-2 mr-4 inline-flex items-center">
         <span class="text-xl text-white font-bold uppercase tracking-wide hover:text-gray-400 transition duration-300"
         >Faldi Harido Fihan</span
         >
@@ -50,19 +50,19 @@
             class="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start flex flex-col lg:h-auto"
         >
             <a
-                href="#"
+                href="#home"
                 class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:text-white transition duration-500"
             >
                 <span>Home</span>
             </a>
             <a
-                href="#"
+                href="#about"
                 class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:text-white transition duration-500"
             >
                 <span>About</span>
             </a>
             <a
-                href="#"
+                href="#skill"
                 class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:text-white transition duration-500"
             >
                 <span>Skill</span>
