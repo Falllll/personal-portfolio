@@ -62,25 +62,25 @@
                 <span>About</span>
             </a>
             <a
-                href="#skill"
+                href="#abilities"
                 class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:text-white transition duration-500"
             >
-                <span>Skill</span>
+                <span>Abilities</span>
             </a>
             <a
-                href="#"
+                href="#experience"
+                class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:text-white transition duration-500"
+            >
+                <span>Experiences</span>
+            </a>
+            <a
+                href="#projects"
                 class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:text-white transition duration-500"
             >
                 <span>Projects</span>
             </a>
             <a
-                href="#"
-                class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:text-white transition duration-500"
-            >
-                <span>Visualization</span>
-            </a>
-            <a
-                href="#"
+                href="#contact"
                 class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:text-white transition duration-500"
             >
                 <span>Contact</span>

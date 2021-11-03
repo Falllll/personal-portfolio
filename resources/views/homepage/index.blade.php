@@ -33,6 +33,7 @@
 
 
 </style>
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 @section('title' , 'Faldi Harido Fihan')
 @section('container')
 
@@ -41,8 +42,8 @@
         <div class="relative bg-center bg-cover bg-image">
             <div class="grid min-h-screen py-20 place-items-center">
                 <div class="flex flex-col items-center text-center text-white responsive">
-                    <div class="pt-5">
-                        <a href="" target="" class="py-2 px-2 font-medium text-white bg-blue-700 rounded hover:bg-blue-900 transition duration-300">Contact Me</a>
+                    <div class="pt-5 transform hover:scale-110 transition duration-300">
+                        <a href="" target="" class="py-2 px-2 font-medium text-white bg-blue-700 rounded transform hover:scale-105 hover:bg-blue-900 transition duration-300">Contact Me</a>
                     </div>
                 </div>
             </div>
@@ -53,7 +54,7 @@
 {{--About Me--}}
     <section id="about" class="pt-5 bg-gray-300">
         <div class="text-center">
-            <p class="text-2xl font-medium text-gray-800 text-center underline">About me</p>
+            <p class="text-2xl font-bold text-gray-800 text-center underline">About me</p>
         </div>
         <div class="flex items-center justify-center grid md:grid-cols-2 text-center text-gray-900">
             <div class="p-5 text-lg font-medium transform hover:scale-105 transition duration-300">Hi I'm Faldi A junior web developer, I have an interest in technology and a career as a Web Development. I'm also skillful in using Microsoft Office such as Word, Excel, Powerpoint, Access. I can work under pressure and able to work well in a team and individually.</div>
@@ -64,10 +65,10 @@
     </section>
 {{--End About Me--}}
 
-{{--Skill--}}
-<section id="skill" class="mb-5">
+{{--Abilities--}}
+<section id="abilities" class="mb-5">
     <div class="text-center">
-        <p class="text-2xl mt-4 mb-3 font-medium text-gray-800 text-center underline">Skill</p>
+        <p class="text-2xl mt-4 mb-3 font-bold text-gray-800 text-center underline">Skill</p>
     </div>
     <div id="slick-expertise" class="slider flex items-center justify-center mx-2" data-slick='{"slidesToShow": 4, "slidesToScroll": 3}'>
         <div class="flex flex-col items-center mb-4 justify-center">
@@ -152,21 +153,63 @@
         </div>
     </div>
 </section>
-{{--Endskill--}}
+{{--EndAbilities--}}
+
+{{--Experience--}}
+
+<section id="experience" class="mt-5 bg-gray-300">
+    <div class="text-center">
+        <p class="text-2xl mt-4 mb-3 font-bold text-gray-800 text-center underline">Experience</p>
+    </div>
+    <div class="flex items-center grid md:grid-cols-2 text-center text-gray-900">
+        <div class="my-3 border-transparent md:border-r-2 md:border-gray-600 ">
+            <div class="text-xl font-bold text-gray-700 ">Education</div>
+            <div class="md:flex md:justify-between px-5">
+                <div class="md:col-start-1 md:inline-block col-end-3 my-3">
+                    <div class="font-semibold md:font-bold mx-3">Politeknik negeri indramayu</div>
+                    <div class="md:my-3 font-normal">Jun 2019 - current</div>
+                </div>
+                <div class="md:col-start-1 block md:inline-block col-end-3 my-3">
+                    <div class="font-semibold md:font-bold mx-3">Informatics Engineering(course)</div>
+                    <div class="hidden md:inline-block max-w-prose mt-2 mx-5">The education was mainly programming concept, but I also learned about SQL, Java, PHP, MVC, UML and more. During my time in college, I specialized in PHP Web Developer. Here I learned about the importance of OOP, web and user experience and design.</div>
+                    <div class="md:my-3 font-normal text-blue-600"><i class='fas fa-map-marker-alt'></i>Indramayu</div>
+                </div>
+            </div>
+        </div>
+        <div class="my-3">
+            <div class="text-xl font-bold text-gray-700">Career</div>
+            <div class="md:flex md:justify-between px-5">
+                <div class="md:col-start-1 md:inline-block col-end-3 my-3">
+                    <div class="font-semibold md:font-bold mx-3">Mahardika Solusi Teknologi</div>
+                    <div class="md:my-3 font-normal">Jul 2021 - current</div>
+                </div>
+                <div class="md:col-start-1 block md:inline-block col-end-3 my-3">
+                    <div class="font-semibold md:font-bold mx-3">Internship - Web Developer</div>
+                    <div class="hidden md:inline-block max-w-prose mt-2 mx-5">I did my first internship at a company named Mahardika Solusi Teknologi. There I learned to apply my knowledge of PHP. Mahardika Solusi Teknologi was a profesional IT Consultant and Software Development Service in Bandung, Indonesia, with more than 50 awesome clients including tokogampang.com, rajaherbal.com, palapa, to name a few.</div>
+                    <div class="md:my-3 font-normal text-blue-600"><i class='fas fa-map-marker-alt'></i>Bandung</div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+
+{{--EndExperience--}}
 
 {{--Projects--}}
-<section id="projects" class="pt-5 bg-gray-300 mb-5">
+<section id="projects" class="pt-5 mb-5">
     <div class="text-center">
-        <p class="text-2xl mt-4 mb-3 font-medium text-gray-800 text-center underline">Projects</p>
+        <p class="text-2xl mt-4 mb-3 font-bold text-gray-800 text-center underline">Projects</p>
     </div>
     <div class="container my-12 mx-auto px-4 md:px-12">
-        <div class="flex flex-wrap -mx-1 lg:-mx-4 responsive">
+        <div class="flex flex-wrap -mx-1 lg:-mx-4 project">
 
             <!-- Column -->
             <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
 
                 <!-- Article -->
-                <div class="overflow-hidden rounded-lg shadow-lg">
+                <div class="overflow-hidden rounded-lg shadow-lg bg-white">
 
                     <img class="w-full" src="{{asset('img/Elaina.png')}}" alt="Mountain">
                     <div class="px-6 py-4">
@@ -341,7 +384,7 @@
         autoplaySpeed: 2000,
     });
 
-    $('.responsive').slick({
+    $('.project').slick({
         dots: false,
         speed: 300,
         slidesToShow: 3,
