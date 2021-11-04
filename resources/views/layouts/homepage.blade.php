@@ -80,6 +80,12 @@
                 <span>Projects</span>
             </a>
             <a
+                href="#works"
+                class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:text-white transition duration-500"
+            >
+                <span>Works</span>
+            </a>
+            <a
                 href="#contact"
                 class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:text-white transition duration-500"
             >

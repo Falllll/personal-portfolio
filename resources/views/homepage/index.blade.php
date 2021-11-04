@@ -13,6 +13,78 @@
         width: 50%;
     }
 
+    .effect {
+        color: #146139;
+    }
+
+    figure.effect img {
+        width: -webkit-calc(100% + 20px);
+        width: calc(100% + 20px);
+        -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+        transition: opacity 0.35s, transform 0.35s;
+        -webkit-transform: translate3d(-10px,0,0);
+        transform: translate3d(-10px,0,0);
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+    }
+
+    figure.effect:hover img {
+        opacity: 0.2;
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+    }
+
+    figure.effect figcaption {
+        text-align: left;
+    }
+
+    figure.effect h3 {
+        position: relative;
+        overflow: hidden;
+        padding-bottom: 20px;
+        opacity: 0;
+        -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+        transition: opacity 0.35s, transform 0.35s;
+    }
+
+    figure.effect:hover h3 {
+        opacity: 1;
+    }
+
+    figure.effect h3::after {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background: #fff;
+        content: '';
+        -webkit-transition: -webkit-transform 0.35s;
+        transition: transform 0.35s;
+        -webkit-transform: translate3d(-100%,0,0);
+        transform: translate3d(-100%,0,0);
+    }
+
+    figure.effect:hover h3::after {
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+    }
+
+    figure.effect p {
+        padding-top: 10px;
+        opacity: 0;
+        -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+        transition: opacity 0.35s, transform 0.35s;
+        -webkit-transform: translate3d(100%,0,0);
+        transform: translate3d(100%,0,0);
+    }
+
+    figure.effect:hover p {
+        opacity: 1;
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+    }
+
     #slick-image {
         margin-left: auto;
         margin-right: auto;
@@ -68,9 +140,9 @@
 {{--Abilities--}}
 <section id="abilities" class="mb-5">
     <div class="text-center">
-        <p class="text-2xl mt-4 mb-3 font-bold text-gray-800 text-center underline">Skill</p>
+        <p class="text-2xl mt-4 mb-3 font-bold text-gray-800 text-center underline">Abilities</p>
     </div>
-    <div id="slick-expertise" class="slider flex items-center justify-center mx-2" data-slick='{"slidesToShow": 4, "slidesToScroll": 3}'>
+    <div id="slick-expertise" class="slider flex items-center justify-center mx-2">
         <div class="flex flex-col items-center mb-4 justify-center">
             <div>
                 <p class="text-black text-center font-bold mb-5">HTML</p>
@@ -209,7 +281,7 @@
             <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
 
                 <!-- Article -->
-                <div class="overflow-hidden rounded-lg shadow-lg bg-white">
+                <div class="overflow-hidden rounded-lg shadow-lg bg-gray-300">
 
                     <img class="w-full" src="{{asset('img/Elaina.png')}}" alt="Mountain">
                     <div class="px-6 py-4">
@@ -220,9 +292,9 @@
                     </div>
 
                     <div class="px-6 pt-4 pb-2">
-                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+                        <span class="inline-block bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+                        <span class="inline-block bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+                        <span class="inline-block bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
                     </div>
 
                 </div>
@@ -366,6 +438,67 @@
 </section>
 {{--Endprojects--}}
 
+<section id="works" class="pt-3 bg-gray-300">
+    <div class="text-center">
+        <p class="text-2xl mt-4 mb-3 font-bold text-gray-800 text-center underline">Works</p>
+    </div>
+    <div class="text-center">
+        <p class="border-b-2 border-fuchsia-600 pb-2 mb-3 text-lg text-gray-600 font-medium italic">
+            “This is my real project”
+        </p>
+    </div>
+    <div class="flex items-center text-center grid grid-cols-1 md:grid-cols-6 md:gap-4 mb-5">
+        <div class="bg-white md:col-start-2 md:col-end-4 my-3">
+            <a href="">
+                <figure class="relative cursor-pointer effect bg-gray-300">
+                    <img src="{{asset('img/Skadi.jpg')}}" width="500" alt="">
+                    <figcaption class="absolute text-lg -mt-72 px-4">
+                        <h3 class="font-semibold text-2xl">Ini Judul Project</h3>
+                        <p>Deskripsi singkat</p>
+                        <p class="mt-28"><strong>Tags:</strong> <br />Action, Fantasy, Romance</p>
+                    </figcaption>
+                </figure>
+            </a>
+        </div>
+        <div class="bg-white md:col-start-4 md:col-end-6 my-3">
+            <a href="">
+                <figure class="relative cursor-pointer effect bg-gray-300">
+                    <img src="{{asset('img/Elaina.png')}}" width="500" alt="">
+                    <figcaption class="absolute text-lg -mt-72 px-4">
+                        <h3 class="font-semibold text-2xl">Ini Judul Project</h3>
+                        <p>Deskripsi singkat</p>
+                        <p class="mt-28"><strong>Tags:</strong> <br />Action, Fantasy, Romance</p>
+                    </figcaption>
+                </figure>
+            </a>
+        </div>
+        <div class="bg-white md:col-start-2 md:col-end-4 my-3">
+            <a href="">
+                <figure class="relative cursor-pointer effect bg-gray-300">
+                    <img src="{{asset('img/Elaina.png')}}" width="500" alt="">
+                    <figcaption class="absolute text-lg -mt-72 px-4">
+                        <h3 class="font-semibold text-2xl">Ini Judul Project</h3>
+                        <p>Deskripsi singkat</p>
+                        <p class="mt-28"><strong>Tags:</strong> <br />Action, Fantasy, Romance</p>
+                    </figcaption>
+                </figure>
+            </a>
+        </div>
+        <div class="bg-white md:col-start-4 md:col-end-6 my-3">
+            <a href="">
+                <figure class="relative cursor-pointer effect bg-gray-300">
+                    <img src="{{asset('img/Skadi.jpg')}}" width="500" alt="">
+                    <figcaption class="absolute text-lg -mt-72 px-4">
+                        <h3 class="font-semibold text-2xl">Ini Judul Project</h3>
+                        <p>Deskripsi singkat</p>
+                        <p class="mt-28"><strong>Tags:</strong> <br />Action, Fantasy, Romance</p>
+                    </figcaption>
+                </figure>
+            </a>
+        </div>
+    </div>
+</section>
+
 
 
 
@@ -382,6 +515,36 @@
         nextArrow: false,
         autoplay: true,
         autoplaySpeed: 2000,
+        slidesToShow: 5,
+        slidesToScroll: 3,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 2,
+                    infinite: true,
+                    dots: false
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+        ]
     });
 
     $('.project').slick({
