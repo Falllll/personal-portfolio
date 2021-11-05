@@ -2,16 +2,17 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
 <style>
     .bg-image {
-        background-image: url(img/town.png);
+        background-image: url(asset/img/town.png);
         filter: brightness(100%);
     }
-
     .picture {
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 50%;
     }
+
+
 
     .effect {
         color: #146139;
@@ -102,8 +103,6 @@
         padding-right: 1.25rem;
         width: 100%;
     }
-
-
 </style>
 <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 @section('title' , 'Faldi Harido Fihan')
@@ -131,7 +130,7 @@
         <div class="flex items-center justify-center grid md:grid-cols-2 text-center text-gray-900">
             <div class="p-5 text-lg font-medium transform hover:scale-105 transition duration-300">Hi I'm Faldi A junior web developer, I have an interest in technology and a career as a Web Development. I'm also skillful in using Microsoft Office such as Word, Excel, Powerpoint, Access. I can work under pressure and able to work well in a team and individually.</div>
             <div class="p-3 mb-5 float-right">
-                <img class="picture transform hover:scale-110 hover:rotate-3 transition duration-300" src="{{asset('img/profile/fall.png')}}" height="300" alt="">
+                <img class="picture transform hover:scale-110 hover:rotate-3 transition duration-300" src="{{asset('asset/img/profile/fall.png')}}" height="300" alt="">
             </div>
         </div>
     </section>
@@ -148,7 +147,7 @@
                 <p class="text-black text-center font-bold mb-5">HTML</p>
             </div>
             <div id="slick-image" class="border shadow-md rounded-full">
-                <img class="w-full h-24" src='img/skill/html5.svg'>
+                <img class="w-full h-24" src='{{asset('asset/img/abilities/html5.svg')}}'>
             </div>
         </div>
         <div class="flex flex-col items-center mb-4 justify-center">
@@ -156,7 +155,7 @@
                 <p class="text-black text-center font-bold mb-5">CSS</p>
             </div>
             <div id="slick-image" class="border shadow-md rounded-full">
-                <img class="w-full h-24" src='img/skill/css3.svg'>
+                <img class="w-full h-24" src='{{asset('asset/img/abilities/css3.svg')}}'>
             </div>
         </div>
         <div class="flex flex-col items-center mb-4 justify-center">
@@ -164,7 +163,7 @@
                 <p class="text-black text-center font-bold mb-5">JAVASCRIPT</p>
             </div>
             <div id="slick-image" class="border shadow-md rounded-full">
-                <img class="w-full h-24" src='img/skill/javascript.svg'>
+                <img class="w-full h-24" src='{{asset('asset/img/abilities/javascript.svg')}}'>
             </div>
         </div>
         <div class="flex flex-col items-center mb-4 justify-center">
@@ -172,7 +171,7 @@
                 <p class="text-black text-center font-bold mb-5">PHP</p>
             </div>
             <div id="slick-image" class="border shadow-md rounded-full">
-                <img class="w-full h-24" src='img/skill/php.svg'>
+                <img class="w-full h-24" src='{{asset('asset/img/abilities/php.svg')}}'>
             </div>
         </div>
         <div class="flex flex-col items-center mb-4 justify-center">
@@ -180,7 +179,7 @@
                 <p class="text-black text-center font-bold mb-5">LARAVEL</p>
             </div>
             <div id="slick-image" class="border shadow-md rounded-full">
-                <img class="w-full h-24" src='img/skill/Laravel.svg'>
+                <img class="w-full h-24" src='{{asset('asset/img/abilities/Laravel.svg')}}'>
             </div>
         </div>
         <div class="flex flex-col items-center mb-4 justify-center">
@@ -188,7 +187,7 @@
                 <p class="text-black text-center font-bold mb-5">VUE .JS</p>
             </div>
             <div id="slick-image" class="border shadow-md rounded-full">
-                <img class="w-full h-24" src='img/skill/vue.svg'>
+                <img class="w-full h-24" src='{{asset('asset/img/abilities/vue.svg')}}'>
             </div>
         </div>
         <div class="flex flex-col items-center mb-4 justify-center">
@@ -196,7 +195,7 @@
                 <p class="text-black text-center font-bold mb-5">TAILWINDCSS</p>
             </div>
             <div id="slick-image" class="border shadow-md rounded-full">
-                <img class="w-full h-24" src='img/skill/tailwind.svg'>
+                <img class="w-full h-24" src='{{asset('asset/img/abilities/tailwind.svg')}}.svg'>
             </div>
         </div>
         <div class="flex flex-col items-center mb-4 justify-center">
@@ -204,7 +203,7 @@
                 <p class="text-black text-center font-bold mb-5">MYSQL</p>
             </div>
             <div id="slick-image" class="border shadow-md rounded-full">
-                <img class="w-full h-24" src='img/skill/mysql.svg'>
+                <img class="w-full h-24" src='{{asset('asset/img/abilities/mysql.svg')}}'>
             </div>
         </div>
         <div class="flex flex-col items-center mb-4 justify-center">
@@ -212,7 +211,7 @@
                 <p class="text-black text-center font-bold mb-5">REACT NATIVE</p>
             </div>
             <div id="slick-image" class="border shadow-md rounded-full">
-                <img class="w-full h-24" src='img/skill/react.svg'>
+                <img class="w-full h-24" src='{{asset('asset/img/abilities/react.svg')}}'>
             </div>
         </div>
         <div class="flex flex-col items-center mb-4 justify-center">
@@ -220,7 +219,7 @@
                 <p class="text-black text-center font-bold mb-5">NODE .JS</p>
             </div>
             <div id="slick-image" class="border shadow-md rounded-full">
-                <img class="w-full h-24" src='img/skill/node.svg'>
+                <img class="w-full h-24" src='{{asset('asset/img/abilities/node.svg')}}'>
             </div>
         </div>
     </div>
@@ -283,7 +282,7 @@
                 <!-- Article -->
                 <div class="overflow-hidden rounded-lg shadow-lg bg-gray-300">
 
-                    <img class="w-full" src="{{asset('img/Elaina.png')}}" alt="Mountain">
+                    <img class="w-full" src="{{asset('asset/img/projects/private/Elaina.png')}}" alt="Mountain">
                     <div class="px-6 py-4">
                         <div class="font-bold text-xl mb-2">Mountain</div>
                         <p class="text-gray-700 text-base">
@@ -309,7 +308,7 @@
                 <!-- Article -->
                 <div class="overflow-hidden rounded-lg shadow-lg">
 
-                    <img class="w-full" src="img/Elaina.png" alt="Mountain">
+                    <img class="w-full" src="{{asset('asset/img/projects/private/Elaina.png')}}" alt="Mountain">
                     <div class="px-6 py-4">
                         <div class="font-bold text-xl mb-2">Mountain</div>
                         <p class="text-gray-700 text-base">
@@ -335,7 +334,7 @@
                 <!-- Article -->
                 <div class="overflow-hidden rounded-lg shadow-lg">
 
-                    <img class="w-full" src="img/Elaina.png" alt="Mountain">
+                    <img class="w-full" src="{{asset('asset/img/projects/private/Elaina.png')}}" alt="Mountain">
                     <div class="px-6 py-4">
                         <div class="font-bold text-xl mb-2">Mountain</div>
                         <p class="text-gray-700 text-base">
@@ -361,7 +360,7 @@
                 <!-- Article -->
                 <div class="overflow-hidden rounded-lg shadow-lg">
 
-                    <img class="w-full" src="img/Elaina.png" alt="Mountain">
+                    <img class="w-full" src="{{asset('asset/img/projects/private/Elaina.png')}}" alt="Mountain">
                     <div class="px-6 py-4">
                         <div class="font-bold text-xl mb-2">Mountain</div>
                         <p class="text-gray-700 text-base">
@@ -387,7 +386,7 @@
                 <!-- Article -->
                 <div class="overflow-hidden rounded-lg shadow-lg">
 
-                    <img class="w-full" src="img/Elaina.png" alt="Mountain">
+                    <img class="w-full" src="{{asset('asset/img/projects/private/Elaina.png')}}" alt="Mountain">
                     <div class="px-6 py-4">
                         <div class="font-bold text-xl mb-2">Mountain</div>
                         <p class="text-gray-700 text-base">
@@ -413,7 +412,7 @@
                 <!-- Article -->
                 <div class="overflow-hidden rounded-lg shadow-lg">
 
-                    <img class="w-full" src="img/Elaina.png" alt="Mountain">
+                    <img class="w-full" src="{{asset('asset/img/projects/private/Elaina.png')}}" alt="Mountain">
                     <div class="px-6 py-4">
                         <div class="font-bold text-xl mb-2">Mountain</div>
                         <p class="text-gray-700 text-base">
@@ -438,6 +437,7 @@
 </section>
 {{--Endprojects--}}
 
+{{--Real Project--}}
 <section id="works" class="pt-3 bg-gray-300">
     <div class="text-center">
         <p class="text-2xl mt-4 mb-3 font-bold text-gray-800 text-center underline">Works</p>
@@ -448,10 +448,10 @@
         </p>
     </div>
     <div class="flex items-center text-center grid grid-cols-1 md:grid-cols-6 md:gap-4 mb-5">
-        <div class="bg-white md:col-start-2 md:col-end-4 my-3">
+        <div class="bg-white md:col-start-2 md:col-end-4 my-3 mx-2">
             <a href="">
                 <figure class="relative cursor-pointer effect bg-gray-300">
-                    <img src="{{asset('img/Skadi.jpg')}}" width="500" alt="">
+                    <img src="{{asset('asset/img/projects/private/Skadi.jpg')}}" width="500" alt="">
                     <figcaption class="absolute text-lg -mt-72 px-4">
                         <h3 class="font-semibold text-2xl">Ini Judul Project</h3>
                         <p>Deskripsi singkat</p>
@@ -460,10 +460,10 @@
                 </figure>
             </a>
         </div>
-        <div class="bg-white md:col-start-4 md:col-end-6 my-3">
+        <div class="bg-white md:col-start-4 md:col-end-6 my-3 mx-2">
             <a href="">
                 <figure class="relative cursor-pointer effect bg-gray-300">
-                    <img src="{{asset('img/Elaina.png')}}" width="500" alt="">
+                    <img src="{{asset('asset/img/projects/private/Elaina.png')}}" width="500" alt="">
                     <figcaption class="absolute text-lg -mt-72 px-4">
                         <h3 class="font-semibold text-2xl">Ini Judul Project</h3>
                         <p>Deskripsi singkat</p>
@@ -472,10 +472,10 @@
                 </figure>
             </a>
         </div>
-        <div class="bg-white md:col-start-2 md:col-end-4 my-3">
+        <div class="bg-white md:col-start-2 md:col-end-4 my-3 mx-2">
             <a href="">
                 <figure class="relative cursor-pointer effect bg-gray-300">
-                    <img src="{{asset('img/Elaina.png')}}" width="500" alt="">
+                    <img src="{{asset('asset/img/projects/private/Elaina.png')}}" width="500" alt="">
                     <figcaption class="absolute text-lg -mt-72 px-4">
                         <h3 class="font-semibold text-2xl">Ini Judul Project</h3>
                         <p>Deskripsi singkat</p>
@@ -484,10 +484,10 @@
                 </figure>
             </a>
         </div>
-        <div class="bg-white md:col-start-4 md:col-end-6 my-3">
+        <div class="bg-white md:col-start-4 md:col-end-6 my-3 ">
             <a href="">
                 <figure class="relative cursor-pointer effect bg-gray-300">
-                    <img src="{{asset('img/Skadi.jpg')}}" width="500" alt="">
+                    <img src="{{asset('asset/img/projects/private/Skadi.jpg')}}" width="500" alt="">
                     <figcaption class="absolute text-lg -mt-72 px-4">
                         <h3 class="font-semibold text-2xl">Ini Judul Project</h3>
                         <p>Deskripsi singkat</p>
@@ -497,6 +497,50 @@
             </a>
         </div>
     </div>
+</section>
+{{-- End RealProject --}}
+
+<section id="contact" class="bg-white">
+    <div class="text-center">
+        <p class="text-2xl mt-4 mb-2 font-bold text-gray-800 text-center underline">Contact</p>
+    </div>
+    <div class="text-center">
+        <p class="border-b-2 border-fuchsia-600 pb-2 mb-3 text-lg text-gray-600 font-medium italic">“Tak kenal maka tak sayang”</p>
+    </div>
+      <div
+        class="max-w-screen-xl my-8 px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto bg-gray-100 text-gray-900 rounded-lg shadow-lg">
+        <div class="flex flex-col text-center">
+          <div>
+            <h2 class="text-4xl lg:text-5xl font-bold leading-tight mb-3">Lets talk about everything!</h2>
+          </div>
+          <div class="text-center">
+              <img class="rounded-md" src="{{asset('asset/img/projects/private/Skadi.jpg')}}" alt="">
+          </div>
+        </div>
+        <div class="">
+          <div>
+            <span class="uppercase text-sm text-gray-600 font-bold">Full Name</span>
+            <input class="w-full bg-gray-300 text-gray-900 mt-2 p-2 rounded-lg focus:outline-none focus:shadow-outline"
+              type="text" placeholder="">
+          </div>
+          <div class="mt-8">
+            <span class="uppercase text-sm text-gray-600 font-bold">Email</span>
+            <input class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+              type="text">
+          </div>
+          <div class="mt-8">
+            <span class="uppercase text-sm text-gray-600 font-bold">Message</span>
+            <textarea
+              class="w-full h-32 bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"></textarea>
+          </div>
+          <div class="mt-8">
+            <button
+              class="uppercase text-sm font-bold tracking-wide bg-indigo-500 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline">
+              Send Message
+            </button>
+          </div>
+        </div>
+      </div>
 </section>
 
 
@@ -541,9 +585,6 @@
                     slidesToScroll: 1
                 }
             }
-            // You can unslick at a given breakpoint now by adding:
-            // settings: "unslick"
-            // instead of a settings object
         ]
     });
 
@@ -580,9 +621,6 @@
                     slidesToScroll: 1
                 }
             }
-            // You can unslick at a given breakpoint now by adding:
-            // settings: "unslick"
-            // instead of a settings object
         ]
     });
 </script>
