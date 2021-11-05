@@ -195,7 +195,7 @@
                 <p class="text-black text-center font-bold mb-5">TAILWINDCSS</p>
             </div>
             <div id="slick-image" class="border shadow-md rounded-full">
-                <img class="w-full h-24" src='{{asset('asset/img/abilities/tailwind.svg')}}.svg'>
+                <img class="w-full h-24" src='{{asset('asset/img/abilities/tailwind.svg')}}'>
             </div>
         </div>
         <div class="flex flex-col items-center mb-4 justify-center">
