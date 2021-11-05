@@ -23,16 +23,16 @@
         integrity="sha256-CAI/7ThhltsmP2L2zKBYa7FknB3ZwFbD0nqL8FCdxdc="
         crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="{{asset('css/style.css')}}"/>
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <style>
     </style>
 </head>
 <body class="flex flex-col min-h-full bg-gray-100">
 {{-- NAVBAR --}}
-<nav class="flex items-center bg-gray-900 p-1 flex-wrap">
-    <a href="#home" class="p-2 mr-4 inline-flex items-center">
-        <span class="text-xl text-white font-bold uppercase tracking-wide hover:text-gray-400 transition duration-300"
+<nav class="flex items-between bg-gray-900 px-2 flex-wrap">
+    <a href="#home" class="inline-flex items-center">
+        <span class="md:text-xl text-base text-white font-bold uppercase tracking-wide hover:text-gray-400 transition duration-300"
         >Faldi Harido Fihan</span
         >
     </a>
