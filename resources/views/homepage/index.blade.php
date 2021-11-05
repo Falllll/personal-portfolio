@@ -456,7 +456,7 @@
     </div>
     <div class="text-center">
         <p class="border-b-2 border-fuchsia-600 pb-2 mb-3 text-lg text-gray-600 font-medium italic">
-            “This is my real project.”
+            “these are some of my contributions to real projects.”
         </p>
     </div>
     <div class="flex items-center text-center grid grid-cols-1 md:grid-cols-6 md:gap-4 mb-5">
