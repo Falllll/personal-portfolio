@@ -128,7 +128,7 @@
             <p class="text-2xl font-bold text-gray-800 text-center underline">About me</p>
         </div>
         <div class="flex items-center justify-center grid md:grid-cols-2 text-center text-gray-900">
-            <div class="p-5 text-lg font-medium transform hover:scale-105 transition duration-300">Hi I'm Faldi A junior web developer, I have an interest in technology and a career as a Web Development. I'm also skillful in using Microsoft Office such as Word, Excel, Powerpoint, Access. I can work under pressure and able to work well in a team and individually.</div>
+            <div class="p-5 px-8 md:text-lg text-base font-medium transform hover:scale-105 transition duration-300">Hi I'm Faldi A junior web developer, I have an interest in technology and a career as a Web Development. I'm also skillful in using Microsoft Office such as Word, Excel, Powerpoint, Access. I can work under pressure and able to work well in a team and individually.</div>
             <div class="p-3 mb-5 float-right">
                 <img class="picture transform hover:scale-110 hover:rotate-3 transition duration-300" src="{{asset('asset/img/profile/fall.png')}}" height="300" alt="">
             </div>
