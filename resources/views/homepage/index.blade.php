@@ -127,6 +127,9 @@
         <div class="text-center">
             <p class="text-2xl font-bold text-gray-800 text-center underline">About me</p>
         </div>
+        <div class="text-center">
+            <p class="border-b-2 border-fuchsia-600 pb-2 mb-3 text-lg text-gray-600 font-medium italic">“Out of sight, out of mind.”</p>
+        </div>
         <div class="flex items-center justify-center grid md:grid-cols-2 text-center text-gray-900">
             <div class="p-5 px-8 md:text-lg text-base font-medium transform hover:scale-105 transition duration-300">Hi I'm Faldi A junior web developer, I have an interest in technology and a career as a Web Development. I'm also skillful in using Microsoft Office such as Word, Excel, Powerpoint, Access. I can work under pressure and able to work well in a team and individually.</div>
             <div class="p-3 mb-5 float-right">
@@ -141,7 +144,10 @@
     <div class="text-center">
         <p class="text-2xl mt-4 mb-3 font-bold text-gray-800 text-center underline">Abilities</p>
     </div>
-    <div id="slick-expertise" class="slider flex items-center justify-center mx-2">
+    <div class="text-center mb-10">
+        <p class="border-b-2 border-fuchsia-600 pb-2 mb-10 text-lg text-gray-600 font-medium italic">“Knowledge is gained by learning; trust by doubt; skill by practice;”</p>
+    </div>
+    <div id="slick-expertise" class="slider flex items-center justify-center mx-2 my-3 py-3">
         <div class="flex flex-col items-center mb-4 justify-center">
             <div>
                 <p class="text-black text-center font-bold mb-5">HTML</p>
@@ -232,6 +238,9 @@
     <div class="text-center">
         <p class="text-2xl mt-4 mb-3 font-bold text-gray-800 text-center underline">Experience</p>
     </div>
+    <div class="text-center">
+        <p class="border-b-2 border-fuchsia-600 pb-2 text-lg text-gray-600 font-medium italic">“Experience is the best teacher.”</p>
+    </div>
     <div class="flex items-center grid md:grid-cols-2 text-center text-gray-900">
         <div class="my-3 border-transparent md:border-r-2 md:border-gray-600 ">
             <div class="text-xl font-bold text-gray-700 ">Education</div>
@@ -272,6 +281,9 @@
 <section id="projects" class="pt-5 mb-5">
     <div class="text-center">
         <p class="text-2xl mt-4 mb-3 font-bold text-gray-800 text-center underline">Projects</p>
+    </div>
+    <div class="text-center">
+        <p class="border-b-2 border-fuchsia-600 pb-2 text-lg text-gray-600 font-medium italic">“My own application created by me.”</p>
     </div>
     <div class="container my-12 mx-auto px-4 md:px-12">
         <div class="flex flex-wrap -mx-1 lg:-mx-4 project">
@@ -444,7 +456,7 @@
     </div>
     <div class="text-center">
         <p class="border-b-2 border-fuchsia-600 pb-2 mb-3 text-lg text-gray-600 font-medium italic">
-            “This is my real project”
+            “This is my real project.”
         </p>
     </div>
     <div class="flex items-center text-center grid grid-cols-1 md:grid-cols-6 md:gap-4 mb-5">
@@ -505,7 +517,7 @@
         <p class="text-2xl mt-4 mb-2 font-bold text-gray-800 text-center underline">Contact</p>
     </div>
     <div class="text-center">
-        <p class="border-b-2 border-fuchsia-600 pb-2 mb-3 text-lg text-gray-600 font-medium italic">“Tak kenal maka tak sayang”</p>
+        <p class="border-b-2 border-fuchsia-600 pb-2 mb-3 text-lg text-gray-600 font-medium italic">“Let's have a little chit chat.”</p>
     </div>
       <div
         class="max-w-screen-xl my-8 px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto bg-gray-100 text-gray-900 rounded-lg shadow-lg">
