@@ -114,7 +114,7 @@
             <div class="grid min-h-screen py-20 place-items-center">
                 <div class="flex flex-col items-center text-center text-white responsive">
                     <div class="pt-5 transform hover:scale-110 transition duration-300">
-                        <a href="" target="" class="py-2 px-2 font-medium text-white bg-blue-700 rounded transform hover:scale-105 hover:bg-blue-900 transition duration-300">Contact Me</a>
+                        <a href="#contact" target="" class="py-2 px-2 font-medium text-white bg-blue-700 rounded transform hover:scale-105 hover:bg-blue-900 transition duration-300">Contact Me</a>
                     </div>
                 </div>
             </div>
@@ -125,7 +125,9 @@
 {{--About Me--}}
     <section id="about" class="pt-5 bg-gray-300">
         <div class="text-center">
-            <p class="text-2xl font-bold text-gray-800 text-center underline">About me</p>
+            <a href="">
+                <p class="text-2xl font-bold text-gray-800 text-center underline">About me</p>
+            </a>
         </div>
         <div class="text-center">
             <p class="border-b-2 border-fuchsia-600 pb-2 mb-3 text-lg text-gray-600 font-medium italic">“Out of sight, out of mind.”</p>
@@ -136,13 +138,24 @@
                 <img class="picture transform hover:scale-110 hover:rotate-3 transition duration-300" src="{{asset('asset/img/profile/fall.png')}}" height="300" alt="">
             </div>
         </div>
+
+        <div class="text-center mb-5">
+            <a href="">
+                <div
+                    class="inline-block rounded-full border-2 border-gray-600 py-1 px-1 text-xs font-medium hover:border-gray-900 transform hover:scale-105 transition duration-300">
+                        Read More
+                </div>
+            </a>
+        </div>
     </section>
 {{--End About Me--}}
 
 {{--Abilities--}}
-<section id="abilities" class="mb-5">
+<section id="abilities" class="mb-2">
     <div class="text-center">
-        <p class="text-2xl mt-4 mb-3 font-bold text-gray-800 text-center underline">Abilities</p>
+        <a href="">
+            <p class="text-2xl mt-4 mb-3 font-bold text-gray-800 text-center underline">Abilities</p>
+        </a>
     </div>
     <div class="text-center mb-10">
         <p class="border-b-2 border-fuchsia-600 pb-2 mb-10 text-lg text-gray-600 font-medium italic">“Knowledge is gained by learning; trust by doubt; skill by practice;”</p>
@@ -229,6 +242,14 @@
             </div>
         </div>
     </div>
+    <div class="text-center">
+        <a href="">
+            <div
+                class="inline-block rounded-full border-2 border-gray-600 py-1 px-1 text-xs font-medium hover:border-gray-900 transform hover:scale-105 transition duration-300">
+                See Detail
+            </div>
+        </a>
+    </div>
 </section>
 {{--EndAbilities--}}
 
@@ -236,7 +257,9 @@
 
 <section id="experience" class="mt-5 bg-gray-300">
     <div class="text-center">
-        <p class="text-2xl mt-4 mb-3 font-bold text-gray-800 text-center underline">Experience</p>
+        <a href="">
+            <p class="text-2xl mt-4 mb-3 font-bold text-gray-800 text-center underline">Experience</p>
+        </a>
     </div>
     <div class="text-center">
         <p class="border-b-2 border-fuchsia-600 pb-2 text-lg text-gray-600 font-medium italic">“Experience is the best teacher.”</p>
@@ -270,8 +293,14 @@
                 </div>
             </div>
         </div>
-
-
+    </div>
+    <div class="text-center mb-5">
+        <a href="">
+            <div
+                class="inline-block rounded-full border-2 border-gray-600 py-1 px-1 text-xs font-medium hover:border-gray-900 transform hover:scale-105 transition duration-300">
+                Read More
+            </div>
+        </a>
     </div>
 </section>
 
@@ -280,7 +309,9 @@
 {{--Projects--}}
 <section id="projects" class="pt-5 mb-5">
     <div class="text-center">
-        <p class="text-2xl mt-4 mb-3 font-bold text-gray-800 text-center underline">Projects</p>
+        <a href="">
+            <p class="text-2xl mt-4 mb-3 font-bold text-gray-800 text-center underline">Projects</p>
+        </a>
     </div>
     <div class="text-center">
         <p class="border-b-2 border-fuchsia-600 pb-2 text-lg text-gray-600 font-medium italic">“My own application created by me.”</p>
@@ -293,10 +324,13 @@
 
                 <!-- Article -->
                 <div class="overflow-hidden rounded-lg shadow-lg bg-gray-300">
-
-                    <img class="w-full" src="{{asset('asset/img/projects/private/Elaina.png')}}" alt="Mountain">
+                    <a href="">
+                        <img class="w-full" src="{{asset('asset/img/projects/private/Elaina.png')}}" alt="Mountain">
+                    </a>
                     <div class="px-6 py-4">
-                        <div class="font-bold text-xl mb-2">Mountain</div>
+                        <a href="">
+                            <div class="inline-block font-bold text-xl mb-2">Mountain</div>
+                        </a>
                         <p class="text-gray-700 text-base">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
                         </p>
@@ -319,10 +353,13 @@
 
                 <!-- Article -->
                 <div class="overflow-hidden rounded-lg shadow-lg">
-
-                    <img class="w-full" src="{{asset('asset/img/projects/private/Elaina.png')}}" alt="Mountain">
+                    <a href="">
+                        <img class="w-full" src="{{asset('asset/img/projects/private/Elaina.png')}}" alt="Mountain">
+                    </a>
                     <div class="px-6 py-4">
-                        <div class="font-bold text-xl mb-2">Mountain</div>
+                        <a href="">
+                            <div class="inline-block font-bold text-xl mb-2">Mountain</div>
+                        </a>
                         <p class="text-gray-700 text-base">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
                         </p>
@@ -345,10 +382,13 @@
 
                 <!-- Article -->
                 <div class="overflow-hidden rounded-lg shadow-lg">
-
-                    <img class="w-full" src="{{asset('asset/img/projects/private/Elaina.png')}}" alt="Mountain">
+                    <a href="">
+                        <img class="w-full" src="{{asset('asset/img/projects/private/Elaina.png')}}" alt="Mountain">
+                    </a>
                     <div class="px-6 py-4">
-                        <div class="font-bold text-xl mb-2">Mountain</div>
+                        <a href="">
+                            <div class="inline-block font-bold text-xl mb-2">Mountain</div>
+                        </a>
                         <p class="text-gray-700 text-base">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
                         </p>
@@ -371,10 +411,13 @@
 
                 <!-- Article -->
                 <div class="overflow-hidden rounded-lg shadow-lg">
-
-                    <img class="w-full" src="{{asset('asset/img/projects/private/Elaina.png')}}" alt="Mountain">
+                    <a href="">
+                        <img class="w-full" src="{{asset('asset/img/projects/private/Elaina.png')}}" alt="Mountain">
+                    </a>
                     <div class="px-6 py-4">
-                        <div class="font-bold text-xl mb-2">Mountain</div>
+                        <a href="">
+                            <div class="inline-block font-bold text-xl mb-2">Mountain</div>
+                        </a>
                         <p class="text-gray-700 text-base">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
                         </p>
@@ -397,10 +440,13 @@
 
                 <!-- Article -->
                 <div class="overflow-hidden rounded-lg shadow-lg">
-
-                    <img class="w-full" src="{{asset('asset/img/projects/private/Elaina.png')}}" alt="Mountain">
+                    <a href="">
+                        <img class="w-full" src="{{asset('asset/img/projects/private/Elaina.png')}}" alt="Mountain">
+                    </a>
                     <div class="px-6 py-4">
-                        <div class="font-bold text-xl mb-2">Mountain</div>
+                        <a href="">
+                            <div class="inline-block font-bold text-xl mb-2">Mountain</div>
+                        </a>
                         <p class="text-gray-700 text-base">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
                         </p>
@@ -423,10 +469,13 @@
 
                 <!-- Article -->
                 <div class="overflow-hidden rounded-lg shadow-lg">
-
-                    <img class="w-full" src="{{asset('asset/img/projects/private/Elaina.png')}}" alt="Mountain">
+                    <a href="">
+                        <img class="w-full" src="{{asset('asset/img/projects/private/Elaina.png')}}" alt="Mountain">
+                    </a>
                     <div class="px-6 py-4">
-                        <div class="font-bold text-xl mb-2">Mountain</div>
+                        <a href="">
+                            <div class="inline-block font-bold text-xl mb-2">Mountain</div>
+                        </a>
                         <p class="text-gray-700 text-base">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
                         </p>
@@ -508,6 +557,14 @@
                 </figure>
             </a>
         </div>
+    </div>
+    <div class="text-center mb-5">
+        <a href="">
+            <div
+                class="inline-block rounded-full border-2 border-gray-600 py-1 px-1 text-xs font-medium hover:border-gray-900 transform hover:scale-105 transition duration-300">
+                See More
+            </div>
+        </a>
     </div>
 </section>
 {{-- End RealProject --}}
