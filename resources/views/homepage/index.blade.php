@@ -464,10 +464,10 @@
             <a href="">
                 <figure class="relative cursor-pointer effect bg-gray-300">
                     <img src="{{asset('asset/img/projects/private/Skadi.jpg')}}" width="500" alt="">
-                    <figcaption class="absolute text-lg -mt-72 px-4">
-                        <h3 class="font-semibold text-2xl">Ini Judul Project</h3>
+                    <figcaption class="absolute md:text-lg text-base -mt-44 md:-mt-72 px-4">
+                        <h3 class="font-normal text-xl md:font-semibold md:text-2xl">Ini Judul Project</h3>
                         <p>Deskripsi singkat</p>
-                        <p class="mt-28"><strong>Tags:</strong> <br />Action, Fantasy, Romance</p>
+                        <p class="md:mt-28"><strong>Tags:</strong> <br />Action, Fantasy, Romance</p>
                     </figcaption>
                 </figure>
             </a>
@@ -476,10 +476,10 @@
             <a href="">
                 <figure class="relative cursor-pointer effect bg-gray-300">
                     <img src="{{asset('asset/img/projects/private/Elaina.png')}}" width="500" alt="">
-                    <figcaption class="absolute text-lg -mt-72 px-4">
-                        <h3 class="font-semibold text-2xl">Ini Judul Project</h3>
+                    <figcaption class="absolute md:text-lg text-base -mt-44 md:-mt-72 px-4">
+                        <h3 class="font-normal text-xl md:font-semibold md:text-2xl">Ini Judul Project</h3>
                         <p>Deskripsi singkat</p>
-                        <p class="mt-28"><strong>Tags:</strong> <br />Action, Fantasy, Romance</p>
+                        <p class="md:mt-28"><strong>Tags:</strong> <br />Action, Fantasy, Romance</p>
                     </figcaption>
                 </figure>
             </a>
@@ -488,10 +488,10 @@
             <a href="">
                 <figure class="relative cursor-pointer effect bg-gray-300">
                     <img src="{{asset('asset/img/projects/private/Elaina.png')}}" width="500" alt="">
-                    <figcaption class="absolute text-lg -mt-72 px-4">
-                        <h3 class="font-semibold text-2xl">Ini Judul Project</h3>
+                    <figcaption class="absolute md:text-lg text-base -mt-44 md:-mt-72 px-4">
+                        <h3 class="font-normal text-xl md:font-semibold md:text-2xl">Ini Judul Project</h3>
                         <p>Deskripsi singkat</p>
-                        <p class="mt-28"><strong>Tags:</strong> <br />Action, Fantasy, Romance</p>
+                        <p class="md:mt-28"><strong>Tags:</strong> <br />Action, Fantasy, Romance</p>
                     </figcaption>
                 </figure>
             </a>
@@ -500,10 +500,10 @@
             <a href="">
                 <figure class="relative cursor-pointer effect bg-gray-300">
                     <img src="{{asset('asset/img/projects/private/Skadi.jpg')}}" width="500" alt="">
-                    <figcaption class="absolute text-lg -mt-72 px-4">
-                        <h3 class="font-semibold text-2xl">Ini Judul Project</h3>
+                    <figcaption class="absolute md:text-lg text-base -mt-44 md:-mt-72 px-4">
+                        <h3 class="font-normal text-xl md:font-semibold md:text-2xl">Ini Judul Project</h3>
                         <p>Deskripsi singkat</p>
-                        <p class="mt-28"><strong>Tags:</strong> <br />Action, Fantasy, Romance</p>
+                        <p class="md:mt-28"><strong>Tags:</strong> <br />Action, Fantasy, Romance</p>
                     </figcaption>
                 </figure>
             </a>
