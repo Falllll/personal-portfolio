@@ -95,9 +95,39 @@
     </div>
 </nav>
 @yield('container')
-<footer class="text-white text-center font-medium mt-auto p-1 bg-gray-900">
-    <div>
-        &copy; 2021 Faldi Harido Fihan
+<footer class="text-white text-center font-medium mt-auto p-1 bg-gray-900 ">
+        <div class="text-center py-1 px-1 mx-1 my-1">
+            <p class="border-b-2 border-fuchsia-600 h-16">&copy; 2021 Faldi Harido Fihan</p>
+        </div>
+    <div class="grid md:grid-cols-2 md:gap-4 mx-5 px-48 h-40">
+        <div class="col-start-1 col-end-1 mt-5">
+            <a href="https://web.facebook.com/Falldy.H/">
+                <div class="text-gray-300">
+                    <img class="inline-block mr-1" src="{{asset('asset/img/sosmed/facebook.png')}}" width="25" alt="">https://web.facebook.com/Falldy.H/
+                </div>
+            </a>
+        </div>
+        <div class="col-start-2 col-end-2 mt-5">
+            <a href="https://github.com/falllll">
+                <div class="text-gray-300">
+                    <img class="inline-block mr-1" src="{{asset('asset/img/sosmed/github.png')}}" width="25" alt="">https://github.com/falllll
+                </div>
+            </a>
+        </div>
+        <div class="col-start-1 col-end-1">
+            <a href="https://www.instagram.com/faldiharido/">
+                <div class="text-gray-300">
+                    <img class="inline-block mr-1" src="{{asset('asset/img/sosmed/instagram.png')}}" width="25" alt="">https://www.instagram.com/faldiharido/
+                </div>
+            </a>
+        </div>
+        <div class="col-start-2 col-end-2">
+            <a href="https://twitter.com/Celiaclairee">
+                <div class="text-gray-300">
+                    <img class="inline-block mr-1" src="{{asset('asset/img/sosmed/twitter.png')}}" width="25" alt="">https://twitter.com/Celiaclairee
+                </div>
+            </a>
+        </div>
     </div>
 </footer>
 <script
