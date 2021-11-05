@@ -113,8 +113,8 @@
         <div class="relative bg-center bg-cover bg-image">
             <div class="grid min-h-screen py-20 place-items-center">
                 <div class="flex flex-col items-center text-center text-white responsive">
-                    <div class="pt-5 transform hover:scale-110 transition duration-300">
-                        <a href="#contact" target="" class="py-2 px-2 font-medium text-white bg-blue-700 rounded transform hover:scale-105 hover:bg-blue-900 transition duration-300">Contact Me</a>
+                    <div class="pt-5 transform hover:scale-110 transition duration-300 active">
+                        <a href="#contact" target="" class="py-2 px-2 font-medium scroll text-white bg-blue-700 rounded transform hover:scale-105 hover:bg-blue-900 transition duration-300">Contact Me</a>
                     </div>
                 </div>
             </div>
@@ -692,6 +692,8 @@
             }
         ]
     });
+
+
 </script>
 
 @endsection

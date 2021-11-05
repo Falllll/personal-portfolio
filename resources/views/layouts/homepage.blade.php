@@ -31,7 +31,7 @@
 <body class="flex flex-col min-h-full bg-gray-100">
 {{-- NAVBAR --}}
 <nav class="flex items-between bg-gray-900 px-2 flex-wrap">
-    <a href="#home" class="inline-flex items-center">
+    <a href="#home" class="scroll active inline-flex items-center">
         <span class="md:text-xl text-base text-white font-bold uppercase tracking-wide hover:text-gray-400 transition duration-300"
         >Faldi Harido Fihan</span
         >
@@ -51,43 +51,43 @@
         >
             <a
                 href="#home"
-                class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:text-white transition duration-500"
+                class="scroll active lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:text-white transition duration-500"
             >
                 <span>Home</span>
             </a>
             <a
                 href="#about"
-                class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:text-white transition duration-500"
+                class="scroll active lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:text-white transition duration-500"
             >
                 <span>About</span>
             </a>
             <a
                 href="#abilities"
-                class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:text-white transition duration-500"
+                class="scroll active lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:text-white transition duration-500"
             >
                 <span>Abilities</span>
             </a>
             <a
                 href="#experience"
-                class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:text-white transition duration-500"
+                class="scroll active lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:text-white transition duration-500"
             >
                 <span>Experiences</span>
             </a>
             <a
                 href="#projects"
-                class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:text-white transition duration-500"
+                class="scroll active lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:text-white transition duration-500"
             >
                 <span>Projects</span>
             </a>
             <a
                 href="#works"
-                class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:text-white transition duration-500"
+                class="scroll active lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:text-white transition duration-500"
             >
                 <span>Works</span>
             </a>
             <a
                 href="#contact"
-                class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:text-white transition duration-500"
+                class="scroll active lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:text-white transition duration-500"
             >
                 <span>Contact</span>
             </a>
@@ -116,6 +116,36 @@
             });
         });
     });
+
+    $(document).ready(function() {
+
+        var scrollLink = $('.scroll');
+
+        // Smooth scrolling
+        scrollLink.click(function(e) {
+            e.preventDefault();
+            $('body,html').animate({
+                scrollTop: $(this.hash).offset().top
+            }, 1000 );
+        });
+
+        // Active link switching
+        $(window).scroll(function() {
+            var scrollbarLocation = $(this).scrollTop();
+
+            scrollLink.each(function() {
+
+                var sectionOffset = $(this.hash).offset().top - 20;
+
+                if ( sectionOffset <= scrollbarLocation ) {
+                    $(this).parent().addClass('active');
+                    $(this).parent().siblings().removeClass('active');
+                }
+            })
+
+        })
+
+    })
 </script>
 </body>
 </html>
