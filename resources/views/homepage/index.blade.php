@@ -125,9 +125,7 @@
 {{--About Me--}}
     <section id="about" class="pt-5 bg-gray-300">
         <div class="text-center">
-            <a href="">
                 <p class="text-2xl font-bold text-gray-800 text-center underline">About me</p>
-            </a>
         </div>
         <div class="text-center">
             <p class="border-b-2 border-fuchsia-600 pb-2 mb-3 text-lg text-gray-600 font-medium italic">“Out of sight, out of mind.”</p>
@@ -140,7 +138,7 @@
         </div>
 
         <div class="text-center mb-5">
-            <a href="">
+            <a href="{{ url('/about') }}">
                 <div
                     class="inline-block rounded-full border-2 border-gray-600 py-1 px-1 text-xs font-medium hover:border-gray-900 transform hover:scale-105 transition duration-300">
                         Read More
@@ -153,9 +151,7 @@
 {{--Abilities--}}
 <section id="abilities" class="mb-2">
     <div class="text-center">
-        <a href="">
             <p class="text-2xl mt-4 mb-3 font-bold text-gray-800 text-center underline">Abilities</p>
-        </a>
     </div>
     <div class="text-center mb-10">
         <p class="border-b-2 border-fuchsia-600 pb-2 mb-10 text-lg text-gray-600 font-medium italic">“Knowledge is gained by learning; trust by doubt; skill by practice;”</p>
@@ -257,9 +253,7 @@
 
 <section id="experience" class="mt-5 bg-gray-300">
     <div class="text-center">
-        <a href="">
             <p class="text-2xl mt-4 mb-3 font-bold text-gray-800 text-center underline">Experience</p>
-        </a>
     </div>
     <div class="text-center">
         <p class="border-b-2 border-fuchsia-600 pb-2 text-lg text-gray-600 font-medium italic">“Experience is the best teacher.”</p>
@@ -309,9 +303,7 @@
 {{--Projects--}}
 <section id="projects" class="pt-5 mb-5">
     <div class="text-center">
-        <a href="">
             <p class="text-2xl mt-4 mb-3 font-bold text-gray-800 text-center underline">Projects</p>
-        </a>
     </div>
     <div class="text-center">
         <p class="border-b-2 border-fuchsia-600 pb-2 text-lg text-gray-600 font-medium italic">“My own application created by me.”</p>
@@ -513,7 +505,7 @@
             <a href="">
                 <figure class="relative cursor-pointer effect bg-gray-300">
                     <img src="{{asset('asset/img/projects/private/Skadi.jpg')}}" width="500" alt="">
-                    <figcaption class="absolute md:text-lg text-base -mt-44 md:-mt-72 px-4">
+                    <figcaption class="absolute md:block md:text-lg text-base -mt-44 md:-mt-72 px-4">
                         <h3 class="font-normal text-xl md:font-semibold md:text-2xl">Ini Judul Project</h3>
                         <p>Deskripsi singkat</p>
                         <p class="md:mt-28"><strong>Tags:</strong> <br />Action, Fantasy, Romance</p>
